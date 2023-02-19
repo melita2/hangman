@@ -1,12 +1,5 @@
 import random
-
-word_list = ["apple", "grapes", "mango", "strawberry", "pineapple"]
+word_list = ["apple", "grapes", "pineapple", "strawberry", "mango"]
 word = random.choice(word_list)
-print(word)
+guess = input("Please enter a single letter: ")
 
-user_input = input("Enter a letter: ")
-
-if len(user_input) == 1 and user_input.isalpha():
-    print("Good guess!")
-else:
-    print("Oops! That's not valid input.")
