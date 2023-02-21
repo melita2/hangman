@@ -9,4 +9,4 @@ guess = input("Please enter a single letter: ")
 if len(guess) == 1:
     print("Good guess!")
 else:
-    print("Oops! Your guess should be a single letter.")
+    print("Oops! That is not a valid input.")
