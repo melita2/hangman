@@ -6,7 +6,7 @@ print(word)
 
 guess = input("Please enter a single letter: ")
 
-if len(guess) == 1 and guess.isalpha():
+if len(guess) == 1:
     print("Good guess!")
 else:
-    print("Oops! That is not a valid input.")
+    print("Oops! Your guess should be a single letter.")
