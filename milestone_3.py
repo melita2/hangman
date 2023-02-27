@@ -1,6 +1,6 @@
 import random
 
-def check_guess(guess, word):
+def check_guess(guess):
     guess = guess.lower()
     if guess in word:
         print(f"Good guess! {guess} is in the word.")
@@ -11,7 +11,7 @@ def ask_for_input(word):
     while True:
         guess = input("Guess a letter: ")
         if len(guess) == 1 and guess.isalpha():
-            check_guess(guess, word)
+            check_guess(guess)
             break
         else:
             print("Invalid input! Please enter a single letter.")
