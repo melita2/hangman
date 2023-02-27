@@ -38,3 +38,5 @@ else:
     print("Oops! This is not valid input.")
 
 You should be able to input a letter and it will check you have put one letter and its from the alphabet.
+
+9. add the check_guess function just prints out a message indicating whether the guess is correct or not, and the ask_for_input function does not return anything. Instead, it just calls the check_guess function within the loop until a valid guess is entered.
