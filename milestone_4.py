@@ -39,5 +39,3 @@ class hangman:
         self.word = random.choice(self.word_list)
         self.word_guessed = ['_' for _ in range(len(self.word))]
         self.num_letters = len(set(self.word))
-word_list = ["apple", "pineapple", "grapes", "strawberry", "mango"]
-game = hangman(word_list)
