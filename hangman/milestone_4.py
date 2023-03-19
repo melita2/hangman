@@ -47,6 +47,4 @@ class Hangman:
         else:
             print("Congratulations! You guessed the word.")
 
-word_list = ["apple", "pineapple", "grapes", "strawberry", "mango"]
-game = Hangman(word_list)
-game.play()
+
